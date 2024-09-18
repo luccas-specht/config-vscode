@@ -1,0 +1,174 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Disable JS auto-import behavior
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  // Editor Behavior
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.enabled": false,
+  "javascript.suggest.autoImports": false,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Explorer Behavior
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Sets the Font size and family
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  // Editor indentation settings
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.renderLineHighlight": "gutter",
+
+  // Auto applies editor rules for long lines of code
+  "editor.rulers": [80, 120],
+
+  // Increases terminal font size
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.rendererType": "canvas",
+
+  // ESLint configuration
+  "eslint.codeActionsOnSave.mode": "all",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx" // Defines auto closing tags in JSX
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Extensions
+  "extensions.ignoreRecommendations": false, // Do not ignore recommendations
+
+  // Pretier settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.userWords": [
+    "Aditi",
+    "ayanda",
+    "Bombaim",
+    "bootcamp",
+    "chakra",
+    "checkin",
+    "checkins",
+    "clsx",
+    "Codegen",
+    "comigo",
+    "datadog",
+    "Datetime",
+    "dayjs",
+    "Dlamini",
+    "Dotenv",
+    "Elysia",
+    "esbuild",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "ffprobe",
+    "Fira",
+    "geraint",
+    "Hasher",
+    "Hono",
+    "ilike",
+    "IUGU",
+    "jamjuree",
+    "Jhon",
+    "Joanesburgo",
+    "jupiter",
+    "Lindley",
+    "liveblocks",
+    "LIVEBLOCKS",
+    "Marguerita",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "nextjs",
+    "niamh",
+    "omni",
+    "Omni",
+    "Onboarded",
+    "pallas",
+    "postgres",
+    "postgresql",
+    "prefetch",
+    "presigner",
+    "raveena",
+    "reactflow",
+    "roboto",
+    "rocketseat",
+    "rotion",
+    "rsxp",
+    "Salli",
+    "Sandpack",
+    "shiki",
+    "skylab",
+    "sqlite",
+    "supergraph",
+    "svgr",
+    "sympla",
+    "tailwindcss",
+    "textblock",
+    "tiptap",
+    "trpc",
+    "TRPC",
+    "tsup",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "unmatching",
+    "upsert",
+    "Usuario",
+    "WEBPUSH"
+  ],
+  "explorer.compactFolders": false,
+  "git.confirmSync": false,
+  "cmake.configureOnOpen": true,
+  "debug.onTaskErrors": "debugAnyway",
+  "cmake.showOptionsMovedNotification": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.preferredDarkColorTheme": "Visual Studio 2017 Dark - C++",
+  "workbench.tree.indent": 10,
+  "screencastMode.fontSize": 54,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Min Dark",
+  "symbols.hidesExplorerArrows": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "top",
+
+  "apc.electron": {
+    "frame": false
+  },
+
+  "apc.listRow": {
+    "height": 24
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true
+}
